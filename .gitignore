@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.env.*
+
+# Keep source data and generated analysis artifacts out of the public repository.
+data/raw/
+data/processed/
+data/Additional material/
+outputs/models/
+logs/
+
+# Local notebook checkpoints and editor metadata.
+.ipynb_checkpoints/
+.vscode/
